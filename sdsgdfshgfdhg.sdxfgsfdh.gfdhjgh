@@ -2,7 +2,155 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({Name = "BrookHaven Hack", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local Tab = Window:MakeTab({
-	Name = "LocalPlayer",
+	Name = "Zakładka",
 	Icon = "rbxassetid://6034754448",
 	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "Skalowanie gracza XD",
+	Default = false,
+	Callback = function(Value)
+		while Value == true do
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.95
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.9
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.85
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.8
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.75
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.7
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.65
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.6
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.55
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.5
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.55
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.6
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.65
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.7
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.75
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.8
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.85
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.9
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "CharacterSizeUp",
+    [2] = 0.95
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RE"):WaitForChild("1Clothe1s"):FireServer(unpack(args))
+end
+	end    
 })
