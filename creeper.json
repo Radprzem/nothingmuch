@@ -1970,7 +1970,7 @@ btn("Creeper", function()
 	local RightHip=getJoint("Right Hip")
 	local LeftHip=getJoint("Left Hip")
 	local Neck=getJoint("Neck")
-  t.setWalkSpeed(10)
+  t.setWalkSpeed(14)
 
 
 	addmode("default", {
