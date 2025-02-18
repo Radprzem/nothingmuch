@@ -190,36 +190,4 @@ Tab6:AddButton({
 	end
 })
 
-local Tab7 = Window:MakeTab({
-	Name = "Localplayer",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab7:AddSlider({
-	Name = "WalkSpeed",
-	Min = 16,
-	Max = 500,
-	Default = 16,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "speed",
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(speed)
-	end    
-})
-
-Tab7:AddSlider({
-	Name = "JumpPower",
-	Min = 50,
-	Max = 1000,
-	Default = 50,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "jpower",
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = tonumber(jpower)
-	end    
-})
-
 OrionLib:Init()
