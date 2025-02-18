@@ -205,7 +205,7 @@ Tab7:AddSlider({
 	Increment = 1,
 	ValueName = "speed",
 	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(speed)
 	end    
 })
 
@@ -218,7 +218,7 @@ Tab7:AddSlider({
 	Increment = 1,
 	ValueName = "jpower",
 	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = jpower
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = tonumber(jpower)
 	end    
 })
 
