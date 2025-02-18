@@ -209,4 +209,17 @@ Tab7:AddSlider({
 	end    
 })
 
+Tab7:AddSlider({
+	Name = "JumpPower",
+	Min = 50,
+	Max = 1000,
+	Default = 50,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "jpower",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = jpower
+	end    
+})
+
 OrionLib:Init()
