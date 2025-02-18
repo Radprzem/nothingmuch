@@ -1,0 +1,99 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "FE Universal GUI", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = true, IntroText = "FE Universal Gui"})
+
+OrionLib:MakeNotification({
+	Name = "Thanks!",
+	Content = "Thanks for using my script btw its not obfuscated so do whatever you want!!!",
+	Image = "rbxassetid://4483345998",
+	Time = 16
+})
+
+local Tab = Window:MakeTab({
+	Name = "Admin Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "CMD-X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+  	end    
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "🍆🍆🍆🥵🥵🥵",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab2:AddButton({
+	Name = "Jerk off r6 (skidded)",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))("Spider Script")
+	end
+})
+
+Tab2:AddButton({
+	Name = "Jerk off r15",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+	end
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Animations",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab3:AddButton({
+	Name = "Energize gui r6/r15",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
+	end
+})
+
+Tab3:AddButton({
+	Name = "FE Fighter Anims",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Radprzem/nothingmuch/refs/heads/main/obfuscated.cpp"))()
+	end
+})
+
+Tab3:AddButton({
+	Name = "FE Sadboy",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Silly-Sadboy-15795"))()
+	end
+})
+
+Tab3:AddButton({
+	Name = "FE Silly Anims V4",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Silly-Animation-V4-22405"))()
+	end
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "Hat scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab4:AddButton({
+	Name = "Click here to copy the links",
+	Callback = function()
+		setclipboard("required hats - https://www.roblox.com/pl/catalog/617605556/Medieval-Hood-of-Mystery, https://www.roblox.com/pl/catalog/4819740796/Robox, https://www.roblox.com/pl/catalog/3443038622/International-Fedora-Peru, https://www.roblox.com/pl/catalog/4154538250/International-Fedora-Chile, https://www.roblox.com/pl/catalog/3822880197/International-Fedora-Ukraine, https://www.roblox.com/pl/catalog/4324158403/International-Fedora-Japan, https://www.roblox.com/pl/catalog/3398308134/International-Fedora-Canada, https://www.roblox.com/pl/catalog/3438342658/International-Fedora-Argentina, https://www.roblox.com/pl/catalog/3409612660/International-Fedora-USA, https://www.roblox.com/pl/catalog/3033910400/International-Fedora-Germany")
+	end
+})
+
+OrionLib:Init()
