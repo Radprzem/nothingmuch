@@ -63,7 +63,7 @@ Tab3:AddButton({
 })
 
 Tab3:AddButton({
-	Name = "FE Fighter Anims",
+	Name = "FE Fighter Anims (breaks the script rejoin after using)",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Radprzem/nothingmuch/refs/heads/main/obfuscated.cpp"))()
 	end
@@ -99,6 +99,114 @@ Tab4:AddButton({
 			Icon = "rbxthumb://type=Asset&id=4483345998&w=150&h=150"
 		})
 	end
+})
+
+Tab4:AddButton({
+	Name = "FE Float Anim (patchma)",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/roXK1Uzp/raw"))()
+	end
+})
+
+Tab4:AddButton({
+	Name = "FE Creeper Anim (patchma)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Radprzem/nothingmuch/refs/heads/main/creeper.json"))()
+	end
+})
+
+Tab4:AddButton({
+	Name = "FE Sadboy Ahh (patchma)",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/BpkcHVL4/raw"))()
+	end
+})
+
+Tab4:AddButton({
+	Name = "FE Penis x Anims (patchma)",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/6KeeWRh9/raw"))()
+	end
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "Funny scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab5:AddButton({
+	Name = "FE Walk on walls r6/r15",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/5T7KsEWy", true))()
+	end
+})
+
+Tab5:AddButton({
+	Name = "FE Hamsterball",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/oCelRLk2/raw"))()
+	end
+})
+
+Tab5:AddButton({
+	Name = "FE Fake IP Logger",
+	Callback = function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fake-IP-LOGGER-V3-28464"))()
+	end
+})
+
+Tab5:AddButton({
+	Name = "FE Touch Fling",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
+	end
+})
+
+Tab5:AddButton({
+	Name = "FE Chat Bypass/Verified",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/qJwH9964"))();
+	end
+})
+
+local Tab6 = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab6:AddButton({
+	Name = "Unc Test",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua"))()
+	end
+})
+
+Tab6:AddButton({
+	Name = "Fly",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastefy.app/CKeFdTKZ/raw"))()
+	end
+})
+
+local Tab7 = Window:MakeTab({
+	Name = "Localplayer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab7:AddSlider({
+	Name = "WalkSpeed",
+	Min = 16,
+	Max = 500,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "speed",
+	Callback = function(Value)
+		game.Players.Localplayer.Character.Humanoid.WalkSpeed = speed
+	end    
 })
 
 OrionLib:Init()
