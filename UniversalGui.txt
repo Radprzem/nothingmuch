@@ -93,6 +93,12 @@ Tab4:AddButton({
 	Name = "Click here to copy the links",
 	Callback = function()
 		setclipboard("required hats - https://www.roblox.com/pl/catalog/617605556/Medieval-Hood-of-Mystery, https://www.roblox.com/pl/catalog/4819740796/Robox, https://www.roblox.com/pl/catalog/3443038622/International-Fedora-Peru, https://www.roblox.com/pl/catalog/4154538250/International-Fedora-Chile, https://www.roblox.com/pl/catalog/3822880197/International-Fedora-Ukraine, https://www.roblox.com/pl/catalog/4324158403/International-Fedora-Japan, https://www.roblox.com/pl/catalog/3398308134/International-Fedora-Canada, https://www.roblox.com/pl/catalog/3438342658/International-Fedora-Argentina, https://www.roblox.com/pl/catalog/3409612660/International-Fedora-USA, https://www.roblox.com/pl/catalog/3033910400/International-Fedora-Germany")
+		OrionLib:MakeNotification({
+			Name = "Copied",
+			Content = "Copied!",
+			Image = "rbxassetid://4483345998",
+			Time = 5
+		})
 	end
 })
 
